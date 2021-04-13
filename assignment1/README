@@ -1,1 +1,36 @@
-Test
+Program will be simple due to me getting used to c++ again.
+
+Marbles will be represented as an array, using 2 different strings within.
+One shall be color, with choice of red, green, and yellow.
+Second will be size, with small medium or large.
+
+These can be randomized or customized by the user.
+The user can choose a random amount of marbles to populate the bag.
+The user can choose a specific type of marble to populate the bag.
+The attributes of the marbles will be tracked.
+
+The user may also choose to pull out a marble
+This will remove a marble and display its qualities
+
+The program will have a main array that will represent the bag
+a random number generater will select a random marble to be pulled out
+the user can also retrieve the last marble added to the bag
+
+
+
+-----------TESTING------------
+
+adding up to 100000 marbles 
+*this will be the maximum amount of marbles allowed in the bag
+
+adding negative amounts of marbles
+*negative amounts will be refused
+
+removing negative amounts of marbles
+*negative amounts will be refused
+
+entering a character where there should be an integer
+*will be refused
+
+entering a float where there should be an integer
+*will be refused
